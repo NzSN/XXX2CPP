@@ -1,0 +1,3 @@
+[submodule "packages/semantic"]
+	path = packages/semantic
+	url = https://github.com/NzSN/semantic.git

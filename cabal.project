@@ -1,0 +1,6 @@
+packages: .
+          packages/semantic/semantic-ast
+          packages/semantic/semantic-source
+          packages/semantic/semantic-typescript
+          packages/semantic/semantic-tags
+          packages/semantic/semantic-proto
