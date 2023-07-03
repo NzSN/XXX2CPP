@@ -25,7 +25,7 @@ extra-source-files: CHANGELOG.md
 
 library
   exposed-modules: Lib
-  build-depends: base ^>=4.16.4.0,
+  build-depends: base ^>=4.14.3.0,
                  semantic-ast,
                  semantic-source,
                  semantic-typescript
@@ -40,7 +40,7 @@ executable XXX2CPP
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.16.4.0,
+    build-depends:    base ^>=4.14.3.0,
                       XXX2CPP
 
     hs-source-dirs:   app

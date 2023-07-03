@@ -1,0 +1,31 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:XXX2CPP"
+
+    - path: "./app/Typescript.hs"
+      component: "XXX2CPP:exe:XXX2CPP"
+
+    - path: "packages/semantic/semantic-ast/src"
+      component: "lib:semantic-ast"
+
+    - path: "packages/semantic/semantic-proto/src"
+      component: "lib:semantic-proto"
+
+    - path: "packages/semantic/semantic-source/src"
+      component: "lib:semantic-source"
+
+    - path: "packages/semantic/semantic-source/test"
+      component: "semantic-source:test:test"
+
+    - path: "packages/semantic/semantic-tags/src"
+      component: "lib:semantic-tags"
+
+    - path: "packages/semantic/semantic-tags/test"
+      component: "semantic-tags:test:test"
+
+    - path: "packages/semantic/semantic-typescript/src"
+      component: "lib:semantic-typescript"
+
+    - path: "packages/semantic/semantic-typescript/test"
+      component: "semantic-typescript:test:test"
