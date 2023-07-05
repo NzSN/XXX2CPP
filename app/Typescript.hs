@@ -1,6 +1,10 @@
+{-# LANGUAGE OverloadedStrings #-}
 module Main where
 
-import Lib (someFunc)
+import Lib (displayTSAst, walkTSAst)
 
 main :: IO ()
-main = someFunc
+main = do
+  -- Display byte
+  displayTSAst "1 + 1; 1 + 1"
+  walkTSAst "1+1\n1+1"
